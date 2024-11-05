@@ -29,6 +29,7 @@ print(users)
 # Функции словарей
 
 print(list(maria.items()))
+print(maria.items())
 print(list(maria.keys()))
 print(list(maria.values()))
 

@@ -4,25 +4,29 @@
 # Учимся писать строки!
 
 s = "Hello, world!"
+print(s + "1")
 s = "Hello, \" world!"
+print(s + "2")
 s = 'Hello, world!'
 
 s = """Hello, world!"""
 s = '''Hello, world!'''
 
+print(s + "3")
+
 s = """Hello, 
 world!"""
 
-print(s)
+print(s + "4")
 
 s = "Hello, \n" \
     "world!"
 
-print(s)
+print(s + "5")
 
 s = "Hello, \nworld!"
 
-print(s)
+print(s + "1")
 
 # Сырые строки
 
