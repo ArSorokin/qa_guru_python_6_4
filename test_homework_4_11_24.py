@@ -9,6 +9,8 @@ def test_greeting():
     age = 25
     # Сформируйте нужную строку
     output = f"Привет, {name}! Тебе {age} лет."
+    print(output)
+
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
@@ -100,6 +102,10 @@ def test_dicts():
     # создайте словарь
     # d = {}
     d = dict(zip(first, second))
+    # print(d.values())
+    # print(list(d.items()))
+    # print(list(d.keys()))
+    print("\n", list(d.values()), sep="")
 
     assert isinstance(d, dict)
     assert len(d) == 5
